@@ -96,9 +96,7 @@ class _JogoDaVelhaState extends State<JogoDaVelha> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Jogo da Velha'),
-      ),
+     
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

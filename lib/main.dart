@@ -10,15 +10,16 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const titulo = 'Jogo Da Velha';
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Layout',
+      title: titulo,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
             seedColor: const Color.fromARGB(255, 219, 93, 181)),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Programa Layout'),
+      home: const HomePage(title: titulo),
     );
   }
 }
